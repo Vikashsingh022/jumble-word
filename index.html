@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jumble Word Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Jumble Word Game</h1>
+        <div id="word-container">
+            <p id="jumbled-word"></p>
+        </div>
+        <input type="text" id="user-input" placeholder="Your guess">
+        <button onclick="checkGuess()">Check Guess</button>
+        <p id="result"></p>
+        <button onclick="generateNewWord()">New Word</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
